@@ -1,0 +1,57 @@
+nav a img {
+	width: 15%;
+}
+
+section.product {
+	margin-top: 100px;
+}
+
+section.product .container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.product .product1 img {
+	margin: auto;
+	width: 70%;
+	margin-left: 100px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.product .product2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.product .product2 h1 {
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+.product .product2 p.harga {
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+.product .product2 button.b-product {
+	padding: 10px 20px;
+	border-radius: 10px 10px 10px 10px;
+	border: none;
+	background-color: brown;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.product .product2 button.b-product:hover {
+	background-color: green;
+	color: white;
+}
+
+footer .text-center {
+	padding-top: 20px;
+}
+
+

@@ -1,0 +1,131 @@
+/* ============ ketika mode mobile=========== */
+@media (max-width: 575.98px) { 
+
+	div#carouselExampleControls {
+		display: none;
+	}
+
+	section.one div.nproduct {
+		display: none;
+	}
+
+	section.one div.teks {
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	section.one div.teks button {
+		margin-top: 30px;
+	}
+
+	section.about div.judul-about {
+		margin-top: 50px;
+		padding-top: 60px;
+	}
+
+	section.about p {
+		font-weight: normal;
+	}
+
+	section.about {
+		margin-top: 20px;
+		margin-bottom: 20px;
+}
+
+	section.product {
+		margin-top: 20px;
+	}
+
+	section.product .card {
+		margin: 15px;
+		auto;
+	}
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+/* ============ mode dekstop =========== */
+nav a img {
+	width: 15%;
+}
+
+.nproduct img {
+	margin-top: 80px;
+	margin-left: 210px;
+	width: 300px;
+}
+
+section.one .teks {
+	margin-left: 100px;
+	margin: auto;
+	margin-top: 150px;
+}
+
+section.about {
+	background-image: url(kategori/pakaian_anak.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.about .judul-about {
+	text-align: center;
+	color: navy;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.about p {
+	text-align: justify;
+}
+
+section.product {
+	margin-top: 100px;
+}
+
+section.product div.judul {
+	text-align: center;
+	text-transform: uppercase;
+	color: navy;
+	font-weight: bold;
+	margin-bottom: 50px;	
+}
+
+.product .product2 {
+	padding-bottom: 50px;
+}
+
+.product .product2 .card {
+	/*height: 450px;*/
+	width: 19rem;
+}
+
+.product .product2 .card img {
+	width: 300px;
+	height: 300px;
+}
+
+.product .product2 a button {
+	width: 100%;
+}
+
+.product.product2 a button:hover {
+	background-color: green;
+}
+
+footer .text-center {
+	padding-top: 20px;
+}
