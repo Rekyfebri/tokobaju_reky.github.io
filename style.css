@@ -41,7 +41,7 @@
 		auto;
 	}
 
-	section.product .card:hover {
+	section.product div.product2 div.card:hover {
 		box-shadow: 5px 5px lightgray;
 	}
 
