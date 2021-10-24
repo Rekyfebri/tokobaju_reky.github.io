@@ -10,12 +10,23 @@
 	}
 
 	.product .product1 {
-		text-align: center;
-		align-content: center;
-		margin: auto;
-		align-items: center;
+		display: none;
 	}
 
+	.product .product2 {
+		background-image: url('kategori/pakaian_dewasa.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding-bottom: 15px;
+		color: white;
+	}
+
+	/*.product .col-md-12 img {
+		margin: auto;
+		width: 70%;
+		border-radius: 15px 15px 15px 15px;
+	}
+*/
 
 	.product .product2 h1 {
 		text-align: center;
@@ -56,6 +67,10 @@ section.product .container {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
+.product .col-md-12 img {
+		display: none;
+	}
 
 .product .product1 img {
 	margin: auto;
