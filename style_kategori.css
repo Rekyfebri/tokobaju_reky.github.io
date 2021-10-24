@@ -1,0 +1,42 @@
+nav a img {
+	width: 15%;
+}
+
+section.product {
+	margin-top: 100px;
+}
+
+.product .judul {
+	text-align: center;
+	text-transform: uppercase;
+	color: navy;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.product .product2 {
+	padding-bottom: 50px;
+}
+
+.product .product2 .card {
+	/*height: 450px;*/
+	width: 19rem;
+}
+
+.product .product2 .card img {
+	width: 300px;
+	height: 300px;
+}
+
+.product .product2 a button {
+	width: 100%;
+}
+
+.product .product2 a button:hover {
+	background-color: red;
+}
+
+footer .text-center {
+	padding-top: 20px;
+} 
+
