@@ -1,3 +1,49 @@
+/* ============ ketika mode mobile=========== */
+@media (max-width: 575.98px) { 
+
+	div#carouselExampleControls {
+		display: none;
+	}
+
+	section.one div.nproduct {
+		display: none;
+	}
+
+	.product .product1 {
+		text-align: center;
+		align-content: center;
+		margin: auto;
+		align-items: center;
+	}
+
+
+	.product .product2 h1 {
+		text-align: center;
+	}
+
+	.product .product2 p.harga {
+		text-align: center;
+	}
+
+	.product .product2 p {
+		text-align: center;
+		text-align: justify;
+	}
+
+	.product .product2 button.b-product {
+		margin-left: 55px;
+	}
+
+
+
+
+
+
+
+
+
+
+/* ============ mode dekstop =========== */
 nav a img {
 	width: 15%;
 }
